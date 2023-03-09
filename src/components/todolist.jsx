@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
 
-class ToDoList extends Component(){
-    render(){
+class ToDoList extends Component {
+    render() { 
         return (
             <div>
-                <MyList />
+                <List/>
             </div>
         );
     }
 }
 
-function MyList(){
+function List(props){
 
     return (
         <div>
-            <p>Hello</p>
+            <p>Hello, World!</p>
         </div>
     );
 }
