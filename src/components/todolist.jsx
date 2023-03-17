@@ -29,8 +29,6 @@ function List(){
     function delTask(id){
         
         setList(l => {
-            console.log(id);
-
             for (let i = 0; i < l.length; i++){
                 if (id === l[i].key){
                     let newList = [...l];
